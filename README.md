@@ -277,7 +277,8 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 -Attributes and methods in a class
 </details>
 
-details> <summary>📘 33. Reading & Writing with Pandas</summary>
+<details> 
+<summary>📘 33. Reading & Writing with Pandas</summary>
 -Pandas for data manipulation
 -Reads multiple file formats (CSV, Excel, JSON)
 -Enables data cleaning, filtering, transformation
