@@ -238,7 +238,7 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 
 
 <details>
-  <summary>📘 27.</summary>Sets</summary>
+  <summary>📘 27.Sets</summary>
 -Definition of sets
 -Unique, unordered collection
 -Removes duplicates automatically
