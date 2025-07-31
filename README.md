@@ -230,70 +230,69 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 
  <details> 
    <summary>📘 26. Dictionaries</summary>
--Definition and use of dictionaries
--Key-value structure
--Mutable and unordered
--Unique keys
+- Definition and use of dictionaries
+- Key-value structure
+- Mutable and unordered
+- Unique keys
 </details>
 
 
 <details>
   <summary>📘 27.Sets</summary>
--Definition of sets
--Unique, unordered collection
--Removes duplicates automatically
--Mutable (with limitations)
+- Definition of sets
+- Unique, unordered collection
+- Removes duplicates automatically
+- Mutable (with limitations)
 </details> 
 
 <details> 
   <summary>📘 28. Conditions and Branching</summary>
--Boolean nature of conditions
--Used to control flow of programs
--Operators: ==, !=, >, <, and logical operators
+- Boolean nature of conditions
+- Used to control flow of programs
+- Operators: ==, !=, >, <, and logical operators
 </details>
 
 <details> <summary>📘 29. Loops</summary>
--Definition of loops
--Repeat code while a condition is true
+- Definition of loops
+- Repeat code while a condition is true
 </details>
 
 <details> 
   <summary>📘 30. Functions</summary>
--Reusable blocks of code
--Improves modularity and readability
--Execution flow of functions
+- Reusable blocks of code
+- Improves modularity and readability
+- Execution flow of functions
 </details>
 
 <details> <summary>📘 31. Exception Handling</summary>
--Handle runtime errors gracefully
--Common exceptions: SyntaxError, ValueError, ZeroDivisionError, FileNotFoundError
--Prevent program crashes
--Improve user experience with meaningful messages
+- Handle runtime errors gracefully
+- Common exceptions: SyntaxError, ValueError, ZeroDivisionError, FileNotFoundError
+- Prevent program crashes
+- Improve user experience with meaningful messages
 </details>
 
 <details> 
   <summary>📘 32. Class and Object</summary>
--Classes as blueprints for objects
--Attributes and methods in a class
+- Classes as blueprints for objects
+- Attributes and methods in a class
 </details>
 
 <details> 
 <summary>📘 33. Reading & Writing with Pandas</summary>
--Pandas for data manipulation
--Reads multiple file formats (CSV, Excel, JSON)
--Enables data cleaning, filtering, transformation
--Part of Python libraries
+- Pandas for data manipulation
+- Reads multiple file formats (CSV, Excel, JSON)
+- Enables data cleaning, filtering, transformation
+- Part of Python libraries
 </details> 
 
 <details> <summary>📘 34. API</summary>
--APIs enable software communication
--Acts as a bridge between systems
--Supports reusability and integration
+- APIs enable software communication
+- Acts as a bridge between systems
+- Supports reusability and integration
 </details>
 
 <details>
   <summary>📘 35. JSON & XML</summary>
-
 - Understanding JSON structure and syntax.
 - Parsing JSON in Python.
 - Introduction to XML and its tags.
