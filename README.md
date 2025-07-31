@@ -5,11 +5,11 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 ---
 
 <details open> <summary>1. 🚀 What is Data Science?</summary>
-Definition and core purpose of Data Science
+📘.Definition and core purpose of Data Science
 
-Importance in modern industries
+📘.Importance in modern industries
 
-Basic data analysis workflow
+📘.Basic data analysis workflow
 
 </details> <details> <summary>2. 📚 Fundamentals of Data Science</summary>
 Overview of data types and sources
