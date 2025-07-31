@@ -6,17 +6,13 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 
 <details open> <summary>1. 🚀 What is Data Science?</summary>
 📘.Definition and core purpose of Data Science
-
 📘.Importance in modern industries
-
 📘.Basic data analysis workflow
 
 </details> <details> <summary>2. 📚 Fundamentals of Data Science</summary>
-Overview of data types and sources
-
-Core components: Statistics, Machine Learning, Domain Knowledge
-
-Lifecycle of a data science project
+⦿Overview of data types and sources
+⦿.Core components: Statistics, Machine Learning, Domain Knowledge
+⦿.Lifecycle of a data science project
 
 </details> <details> <summary>3. 🎯 Path to Become a Data Scientist</summary>
 Skills roadmap: technical & soft skills
