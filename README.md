@@ -184,10 +184,6 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 
 </details>
 
-</details>
-
-</details>
-
 <details>
   <summary>📘 22. Exception Handling</summary>
 
