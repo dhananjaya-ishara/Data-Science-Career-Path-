@@ -5,126 +5,94 @@ Explore foundational concepts in Data Science, Big Data, and Analytical Tools. E
 ---
 
 <details open> <summary>1. 🚀 What is Data Science?</summary>
-📘.Definition and core purpose of Data Science
-📘.Importance in modern industries
-📘.Basic data analysis workflow
+📘.Definition and core purpose of Data Science<br>
+📘.Importance in modern industries<br>
+📘.Basic data analysis workflow<br>
 
 </details> <details> <summary>2. 📚 Fundamentals of Data Science</summary>
-⦿Overview of data types and sources
-⦿.Core components: Statistics, Machine Learning, Domain Knowledge
-⦿.Lifecycle of a data science project
+⦿Overview of data types and sources<br>
+⦿.Core components: Statistics, Machine Learning, Domain Knowledge<br>
+⦿.Lifecycle of a data science project<br>
 
 </details> <details> <summary>3. 🎯 Path to Become a Data Scientist</summary>
-Skills roadmap: technical & soft skills
-
-Suggested learning sequence
-
-Beginner-friendly tools and platforms
+Skills roadmap: technical & soft skills<br>
+Suggested learning sequence<br>
+Beginner-friendly tools and platforms<br>
 
 </details> <details> <summary>4. 📈 Data Analysis</summary>
-Descriptive vs. inferential analysis
-
-Common techniques
-
-Real-world data examples
+Descriptive vs. inferential analysis<br>
+Common techniques<br>
+Real-world data examples<br>
 
 </details> <details> <summary>5. 🧠 Business Intelligence (BI)</summary>
-Difference between BI and Data Science
-
-Popular tools: Power BI, Tableau
-
-Real business use cases
+Difference between BI and Data Science<br>
+Popular tools: Power BI, Tableau<br>
+Real business use cases<br>
 
 </details> <details> <summary>6. 📊 Statistical Modeling</summary>
-Basics: mean, median, standard deviation
-
-Probability, distributions, correlation
-
-Linear regression & hypothesis testing
+Basics: mean, median, standard deviation<br>
+Probability, distributions, correlation<br>
+Linear regression & hypothesis testing<br>
 
 </details> <details> <summary>7. 🌐 Big Data Concepts</summary>
-3Vs of Big Data: Volume, Velocity, Variety
-
-Examples: Social Media, IoT, etc.
-
-Challenges & significance
+3Vs of Big Data: Volume, Velocity, Variety<br>
+Examples: Social Media, IoT, etc.<br>
+Challenges & significance<br>
 
 </details> <details> <summary>8. 🛠️ Working with Big Data</summary>
-Tools: Hadoop, Spark
-
-Storage & processing methods
-
-Real-time vs. batch processing
+Tools: Hadoop, Spark<br>
+Storage & processing methods<br>
+Real-time vs. batch processing<br>
 
 </details> <details> <summary>9. 💼 Big Data in Real Life</summary>
-Industry applications: healthcare, banking, retail
-
-Impact on decision-making
-
-Data monetization strategies
+Industry applications: healthcare, banking, retail<br>
+Impact on decision-making<br>
+Data monetization strategies<br>
 
 </details> <details> <summary>10. 🗃️ Database Tools</summary>
-SQL vs. NoSQL
-
-Tools: MySQL, PostgreSQL, MongoDB
-
-Data querying and management
+SQL vs. NoSQL<br>
+Tools: MySQL, PostgreSQL, MongoDB<br>
+Data querying and management<br>
 
 </details> <details> <summary>11. 🐍 Programming Languages</summary>
-Python and R for data science
-
-Popular libraries: NumPy, pandas, Matplotlib
-
-Role of scripting in automation
+Python and R for data science<br>
+Popular libraries: NumPy, pandas, Matplotlib<br>
+Role of scripting in automation<br>
 
 </details> <details> <summary>12. 🔄 360° Analysis Tools</summary>
-All-in-one analytics platforms
-
-Integrating BI, ML, and automation
-
-Tools: SAS, RapidMiner
+All-in-one analytics platforms<br>
+Integrating BI, ML, and automation<br>
+Tools: SAS, RapidMiner<br>
 
 </details> <details> <summary>13. 📊 Data Visualization Tools</summary>
-Importance of data storytelling
-
-Tools: Tableau, Power BI, Matplotlib
-
-Best practices in visualization
+Importance of data storytelling<br>
+Tools: Tableau, Power BI, Matplotlib<br>
+Best practices in visualization<br>
 
 </details> <details> <summary>14. 💻 Development Platforms</summary>
-IDEs: Jupyter Notebook, VS Code
-
-Version control with Git
-
-Deployment & collaboration techniques
+IDEs: Jupyter Notebook, VS Code<br>
+Version control with Git<br>
+Deployment & collaboration techniques<br>
 
 </details> <details> <summary>15. 🧩 Business Understanding</summary>
-Understanding the problem domain
-
-Aligning data goals with business objectives
-
-Communicating with stakeholders
+Understanding the problem domain<br>
+Aligning data goals with business objectives<br>
+Communicating with stakeholders<br>
 
 </details> <details> <summary>16. 📥 Data Collection</summary>
-Primary vs. secondary sources
-
-APIs, surveys, sensors, web scraping
-
-Data privacy & quality assurance
+Primary vs. secondary sources<br>
+APIs, surveys, sensors, web scraping<br>
+Data privacy & quality assurance<br>
 
 </details> <details> <summary>17. 🧹 Data Preparation</summary>
-Data cleaning and transformation
-
-Handling missing values and outliers
-
-Feature selection and encoding
+Data cleaning and transformation<br>
+Handling missing values and outliers<br>
+Feature selection and encoding<br>
 
 </details> <details> <summary>18. 🧠 Data Modeling</summary>
-Overview of ML algorithms
-
-Model training, validation, and tuning
-
-Classification, regression, clustering
+Overview of ML algorithms<br>
+Model training, validation, and tuning<br>
+Classification, regression, clustering<br>
 
 </details> <details> <summary>19. 🧪 Model Evaluation</summary>
 Metrics: Accuracy, Precision, Recall, F1-score
