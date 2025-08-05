@@ -211,14 +211,8 @@ Responsive design with Bootstrap grid
 Components: navbar, buttons, forms
 </details>
 
-
-
-
-<P>
----
-
-### **Note for MultipleFiles/37. Probability*
-
+<details> <summary>### **Note for MultipleFiles/37. Probability**</summary>
+   ---
 **Topic: Probability**
 
 *   **Definition of Probability**:
@@ -244,6 +238,19 @@ Components: navbar, buttons, forms
     *   The sum of probabilities of all possible outcomes in a sample space is 1: $\sum P(outcome_i) = 1$.
     *   The probability of the sample space is 1: $P(\Omega) = 1$.
     *   The probability of an impossible event is 0: $P(\emptyset) = 0$.
+       ---
+</details>
+
+
+
+
+
+<P>
+---
+
+
+
+
 
 ---
 
