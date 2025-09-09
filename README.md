@@ -211,7 +211,7 @@ Responsive design with Bootstrap grid
 Components: navbar, buttons, forms
 </details>
 
-<details> <summary>### **Note for MultipleFiles/37. Probability**</summary>
+<details> <summary>37. Probability**</summary>
    ---
 **Topic: Probability**
 <p></p>
