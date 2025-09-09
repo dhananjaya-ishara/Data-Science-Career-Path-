@@ -211,34 +211,77 @@ Responsive design with Bootstrap grid
 Components: navbar, buttons, forms
 </details>
 
-<details> <summary>37. Probability**</summary>
-   ---
-**Topic: Probability**
-<p></p>
-*   **Definition of Probability**:
-    *   A measure of the likelihood of an event occurring.
-    *   Expressed as a number between 0 and 1 (or 0% and 100%).
-    *   0 indicates impossibility, 1 indicates certainty.
-*   **Key Concepts**:
-    *   **Experiment**: A process that leads to well-defined outcomes.
-    *   **Outcome**: A single possible result of an experiment.
-    *   **Sample Space ($\Omega$ or S)**: The set of all possible outcomes of an experiment.
-    *   **Event (E)**: A subset of the sample space; a collection of one or more outcomes.
-*   **Calculating Probability (Classical Definition)**:
-    *   For equally likely outcomes:
-        $$
-        P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
-        $$
-*   **Types of Probability**:
-    *   **Classical Probability**: Based on equally likely outcomes (e.g., rolling a fair die).
-    *   **Empirical (Relative Frequency) Probability**: Based on observed data from experiments (e.g., probability of rain based on past records).
-    *   **Subjective Probability**: Based on personal judgment or belief (e.g., probability of a team winning a game).
-*   **Basic Rules/Axioms of Probability**:
-    *   For any event E, $0 \le P(E) \le 1$.
-    *   The sum of probabilities of all possible outcomes in a sample space is 1: $\sum P(outcome_i) = 1$.
-    *   The probability of the sample space is 1: $P(\Omega) = 1$.
-    *   The probability of an impossible event is 0: $P(\emptyset) = 0$.
-       ---
+<details> <summary>37. Probability</summary>
+---
+
+## 🔹 **Definition of Probability**
+
+* A measure of the **likelihood of an event occurring**.
+* Expressed as a value between **0 and 1** (or **0% and 100%**):
+
+  * **0 → Impossibility**
+  * **1 → Certainty**
+
+---
+
+## 🔹 **Key Concepts**
+
+* **Experiment** → A process that produces well-defined outcomes.
+* **Outcome** → A single possible result of an experiment.
+* **Sample Space ($S$ or $\Omega$)** → The set of all possible outcomes.
+* **Event (E)** → A subset of the sample space (one or more outcomes).
+
+---
+
+## 🔹 **Classical Probability Formula**
+
+For **equally likely outcomes**:
+
+$$
+P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+$$
+
+---
+
+## 🔹 **Types of Probability**
+
+1. **Classical Probability**
+
+   * Based on equally likely outcomes.
+   * Example: Probability of rolling a 3 on a fair die = $\tfrac{1}{6}$.
+
+2. **Empirical (Relative Frequency) Probability**
+
+   * Based on **experimental/observed data**.
+   * Example: Probability of rain tomorrow = historical frequency of rainy days.
+
+3. **Subjective Probability**
+
+   * Based on **personal judgment, belief, or intuition**.
+   * Example: Predicting your favorite team’s chance of winning.
+
+---
+
+## 🔹 **Basic Rules / Axioms of Probability**
+
+* $0 \leq P(E) \leq 1$
+* Probability of the sample space:
+
+  $$
+  P(\Omega) = 1
+  $$
+* Probability of an impossible event:
+
+  $$
+  P(\emptyset) = 0
+  $$
+* Sum of probabilities of all outcomes = 1:
+
+  $$
+  \sum P(\text{outcome}_i) = 1
+  $$
+
+---
 </details>
 
 <details> <summary>38. 🎯 Expected vs. Actual Values</summary>
