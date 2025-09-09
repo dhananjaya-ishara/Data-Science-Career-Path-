@@ -241,11 +241,417 @@ Components: navbar, buttons, forms
        ---
 </details>
 
+<details> <summary>38. 🎯 Expected vs. Actual Values</summary>
+---
 
+## 🔹 **Expected Value (Expectation)**
+
+* **📝 Definition** → The **long-run average** outcome of a random variable.
+* **Formula (Discrete Random Variable X):**
+
+$$
+E(X) = \sum_{i=1}^{n} x_i \, P(x_i)
+$$
+
+where:
+
+* $x_i$ = possible outcomes
+
+* $P(x_i)$ = probability of each outcome
+
+* **💡 Interpretation** → What we *expect on average* if an experiment is repeated many times.
+  ⚠️ It does **not** mean any single trial will equal the expected value.
+
+---
+
+## 🔹 **Actual Value (Observed Value)**
+
+* **📝 Definition** → The **specific outcome** observed in a single experiment.
+* **💡 Example** → Rolling a die once and getting **4** (actual) vs. the expected mean outcome **3.5**.
+
+---
+
+## 🔹 **Relationship & Discrepancy**
+
+1. **📏 Law of Large Numbers**
+
+   * With more trials, actual results tend to converge to expected values.
+
+2. **📊 Variance / Deviation**
+
+   * Difference between actual and expected values is natural in random processes.
+
+3. **📌 Applications**
+
+   * Finance → Expected vs. actual returns
+   * Gambling → Expected winnings/losses
+   * Quality Control → Predicted vs. observed defect rates
+   * Machine Learning/Stats → Model prediction vs. real data
+
+---
+</details>
 
 
 
 <P>
+<details> <summary>39. 🔢 Frequency</summary>
+---
+## 🔹 **Types of Frequency**
+
+1. **📊 Absolute Frequency**
+
+   * Raw count of how many times a value/category appears.
+   * **Example** → If `"A"` appears **5 times**, its absolute frequency = **5**.
+
+2. **📈 Relative Frequency**
+
+   * Proportion of times a value/category appears **relative to the total observations**.
+   * **Formula:**
+
+   $$
+   \text{Relative Frequency} = \frac{\text{Absolute Frequency}}{\text{Total Observations}}
+   $$
+
+   * Expressed as a fraction, decimal, or percentage.
+   * **Example** → `"A"` appears **5 times** out of **20** → $\frac{5}{20} = 0.25$ or **25%**.
+
+3. **📉 Cumulative Frequency**
+
+   * Running total of frequencies up to a certain value.
+   * Useful to determine how many observations fall **below a specific point**.
+
+---
+
+## 🔹 **Frequency Distribution**
+
+A structured way to show frequencies of outcomes.
+
+* **Ungrouped Distribution** → Lists each individual value and its frequency.
+* **Grouped Distribution** → Groups data into class intervals (e.g., 0–10, 11–20) and shows frequency for each interval.
+
+---
+
+## 🔹 **Visualizing Frequency**
+
+* **📊 Bar Charts / Histograms** → Show frequencies of categorical or numerical data.
+* **📈 Frequency Polygons** → Line graph connecting midpoints of histogram bars.
+* **🥧 Pie Charts** → Represent **relative frequencies** of categorical data.
+
+---
+</details> 
+
+
+<details> <summary>40. 🎲 Events in Probability  </summary>
+
+🔹 Definition
+
+Combinatorics is the branch of mathematics concerned with counting, arranging, and combining objects.
+👉 It answers the question: “How many ways can this be done?”
+
+## 🔹 **Types of Events**
+
+1. **🎯 Simple Event**
+
+   * Contains only **one outcome**.
+   * Example → Rolling a **3** on a die.
+
+2. **🧩 Compound Event**
+
+   * Contains **more than one outcome**.
+   * Example → Rolling an **even number** (2, 4, 6).
+
+3. **✅ Certain Event**
+
+   * An event that is **sure to happen** → equals the entire sample space.
+   * $P(\text{Certain Event}) = 1$
+   * Example → Rolling a number **less than 7** on a die.
+
+4. **❌ Impossible Event**
+
+   * An event that **cannot happen** → equals the empty set ($\emptyset$).
+   * $P(\text{Impossible Event}) = 0$
+   * Example → Rolling a **7** on a die.
+
+---
+
+## 🔹 **Relationships Between Events**
+
+1. **🔄 Complement of an Event ($A'$ or $A^c$)**
+
+   * All outcomes in the sample space that are **NOT in event A**.
+   * Formula:
+
+     $$
+     P(A') = 1 - P(A)
+     $$
+
+2. **➕ Union of Events ($A \cup B$)**
+
+   * Event where **A occurs OR B occurs (or both)**.
+
+3. **✴️ Intersection of Events ($A \cap B$)**
+
+   * Event where **A AND B occur simultaneously**.
+
+4. **🚫 Mutually Exclusive (Disjoint) Events**
+
+   * Events that **cannot occur together**.
+   * $A \cap B = \emptyset$
+   * Formula:
+
+     $$
+     P(A \cap B) = 0
+     $$
+
+5. **⚖️ Independent Events**
+
+   * One event’s occurrence **does not affect** the probability of the other.
+   * Formula:
+
+     $$
+     P(A \cap B) = P(A) \cdot P(B)
+     $$
+
+6. **🔗 Dependent Events**
+   * One event’s occurrence **affects** the probability of the other.
+---
+</details> 
+
+
+
+<details> <summary>40. # 🔢 Combinatorics  </summary>
+
+   🔹 Definition
+
+Combinatorics is the branch of mathematics concerned with counting, arranging, and combining objects.
+👉 It answers the question: “How many ways can this be done?”
+## 🔹 **Fundamental Counting Principle (Multiplication Rule)**
+
+* If there are **m ways** to do one thing and **n ways** to do another,
+  then there are:
+
+  $$
+  m \times n
+  $$
+
+  total ways to do both.
+
+✅ Can be extended to more than two events.
+
+---
+
+## 🔹 **Key Concepts**
+
+1. **📐 Permutations (Order Matters)**
+
+   * **Definition**: Arrangements of objects where sequence is important.
+   * Example: Seating 3 students in a row → different orders matter.
+
+2. **🎲 Combinations (Order Doesn’t Matter)**
+
+   * **Definition**: Selections of objects where sequence is irrelevant.
+   * Example: Choosing 3 students from a group of 10 → only the group matters, not the order.
+
+3. **➗ Factorials (!)**
+
+   * **Definition**: Product of all positive integers up to $n$.
+
+     $$
+     n! = n \times (n-1) \times (n-2) \dots \times 1
+     $$
+   * Example: $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$.
+
+---
+
+## 🔹 **Applications of Combinatorics**
+
+* 🎟️ **Probability** → e.g., calculating lottery odds.
+* 💻 **Computer Science** → algorithm analysis, password strength.
+* 📊 **Statistics** → sampling and survey design.
+* 🔐 **Cryptography** → encoding/decoding secure systems.
+
+---
+</details> 
+
+
+
+<details> <summary>41 🔢 Permutations  </summary>
+
+
+## 🔹 **Definition**
+
+A **permutation** is an **arrangement of objects in a specific order**.
+👉 The **order of selection/arrangement matters**.
+
+---
+
+## 🔹 **Types of Permutations**
+
+1. **📚 Permutations of n distinct objects (all taken)**
+
+   * Formula:
+
+     $$
+     P(n, n) = n!
+     $$
+   * Example: Arranging 3 books on a shelf →
+
+     $$
+     3! = 3 \times 2 \times 1 = 6 \ \text{ways}
+     $$
+
+---
+
+2. **📝 Permutations of n distinct objects (taken r at a time)**
+
+   * Formula:
+
+     $$
+     P(n, r) = \frac{n!}{(n-r)!}
+     $$
+   * Example: Arranging 2 letters from {A, B, C} →
+
+     $$
+     P(3, 2) = \frac{3!}{(3-2)!} = \frac{3!}{1!} = 6  
+     $$
+
+     (AB, AC, BA, BC, CA, CB).
+
+---
+
+3. **🔁 Permutations with repetition (identical objects)**
+
+   * If $n = n_1 + n_2 + \dots + n_k$ where some objects are identical:
+
+     $$
+     P = \frac{n!}{n_1! \, n_2! \, \dots \, n_k!}
+     $$
+   * Example: Arranging the letters in **“MISSISSIPPI”**.
+
+---
+
+4. **♻️ Permutations with repetition (allowing replacement)**
+
+   * Formula:
+
+     $$
+     n^r
+     $$
+   * Example: A **3-digit lock** with digits 0–9 (repetition allowed):
+
+     $$
+     10^3 = 1000 \ \text{arrangements}
+     $$
+
+---
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+
+<details> <summary>  </summary>
+
+</details> 
+
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+<details> <summary>  </summary>
+
+</details> 
+
+
+
+<details> <summary>  </summary>
+
+</details> 
+
+
+
+
+
+
 ---
 
 
@@ -254,156 +660,14 @@ Components: navbar, buttons, forms
 
 ---
 
-### **Note for MultipleFiles/25. Expected vs Actual**
 
-**Topic: Expected vs. Actual Values**
 
-*   **Expected Value (Expectation)**:
-    *   **Definition**: The long-run average outcome of a random variable. It's a weighted average of all possible outcomes, where the weights are the probabilities of those outcomes.
-    *   **Formula for Discrete Random Variable X**:
-        $$
-        E(X) = \sum_{i=1}^{n} x_i P(x_i)
-        $$
-        where $x_i$ are the possible values of X and $P(x_i)$ are their respective probabilities.
-    *   **Interpretation**: What you would expect to happen on average if an experiment were repeated many times. It does not guarantee that any single outcome will be the expected value.
-*   **Actual Value (Observed Value)**:
-    *   **Definition**: The specific outcome that occurs in a single instance of an experiment or observation.
-    *   **Interpretation**: The result that was actually observed.
-*   **Relationship and Discrepancy**:
-    *   **Law of Large Numbers**: As the number of trials in an experiment increases, the actual (empirical) probability of an event tends to converge towards its expected (theoretical) probability.
-    *   **Variance/Deviation**: The difference between the actual value and the expected value. This difference is natural in random processes.
-    *   **Applications**: Used in finance (expected return vs. actual return), gambling (expected winnings/losses), quality control, and statistical modeling to compare predictions with reality.
 
----
 
-### **Note for MultipleFiles/26. frequency**
 
-**Topic: Frequency**
 
-*   **Definition of Frequency**:
-    *   The number of times a particular event or value occurs in a dataset or during an experiment.
-*   **Types of Frequency**:
-    *   **Absolute Frequency**:
-        *   The raw count of how many times a specific value or category appears.
-        *   Example: If 'A' appears 5 times in a list, its absolute frequency is 5.
-    *   **Relative Frequency**:
-        *   The proportion of times a specific value or category appears, relative to the total number of observations.
-        *   Calculated as:
-            $$
-            \text{Relative Frequency} = \frac{\text{Absolute Frequency}}{\text{Total Number of Observations}}
-            $$
-        *   Expressed as a fraction, decimal, or percentage.
-        *   Example: If 'A' appears 5 times out of 20 total observations, its relative frequency is $5/20 = 0.25$ or 25%.
-    *   **Cumulative Frequency**:
-        *   The running total of frequencies. For a given value, it's the sum of its frequency and the frequencies of all preceding values.
-        *   Useful for finding the number of observations below a certain point.
-*   **Frequency Distribution**:
-    *   A table or graph that displays the frequency of various outcomes in a sample.
-    *   **Types of Frequency Distributions**:
-        *   **Ungrouped Frequency Distribution**: Lists each individual value and its frequency.
-        *   **Grouped Frequency Distribution**: Groups data into class intervals and lists the frequency for each interval.
-*   **Visualizing Frequency**:
-    *   **Bar Charts/Histograms**: Used to display frequencies of categorical or numerical data.
-    *   **Frequency Polygons**: Used to display frequencies of numerical data, often by connecting midpoints of histogram bars.
-    *   **Pie Charts**: Used to display relative frequencies of categorical data.
 
----
 
-### **Note for MultipleFiles/27. event in probabl**
-
-**Topic: Events in Probability**
-
-*   **Definition of an Event**:
-    *   A specific outcome or a set of outcomes from a random experiment.
-    *   It is a subset of the sample space ($\Omega$ or S).
-*   **Types of Events**:
-    *   **Simple Event**: An event with only one outcome.
-        *   Example: Rolling a '3' on a single die.
-    *   **Compound Event**: An event with more than one outcome.
-        *   Example: Rolling an 'even number' (2, 4, or 6) on a single die.
-    *   **Certain Event**: An event that is sure to happen; it is the entire sample space. $P(\text{Certain Event}) = 1$.
-        *   Example: Rolling a number less than 7 on a single die.
-    *   **Impossible Event**: An event that cannot happen; it is an empty set ($\emptyset$). $P(\text{Impossible Event}) = 0$.
-        *   Example: Rolling a '7' on a single die.
-*   **Relationships Between Events**:
-    *   **Complement of an Event (A') or (A^c)**:
-        *   All outcomes in the sample space that are NOT in event A.
-        *   $P(A') = 1 - P(A)$.
-    *   **Union of Events (A $\cup$ B)**:
-        *   The event that A occurs OR B occurs (or both).
-        *   Outcomes belonging to A, or B, or both.
-    *   **Intersection of Events (A $\cap$ B)**:
-        *   The event that A occurs AND B occurs simultaneously.
-        *   Outcomes belonging to both A and B.
-    *   **Mutually Exclusive (Disjoint) Events**:
-        *   Events that cannot occur at the same time. Their intersection is an empty set ($A \cap B = \emptyset$).
-        *   If A and B are mutually exclusive, $P(A \cap B) = 0$.
-    *   **Independent Events**:
-        *   The occurrence of one event does not affect the probability of the other event occurring.
-        *   If A and B are independent, $P(A \cap B) = P(A)P(B)$.
-    *   **Dependent Events**:
-        *   The occurrence of one event affects the probability of the other event occurring.
-
----
-
-### **Note for MultipleFiles/28. Combinatorics**
-
-**Topic: Combinatorics**
-
-*   **Definition of Combinatorics**:
-    *   A branch of mathematics dealing with counting, arrangement, and combination of objects. It answers "how many ways" questions.
-*   **Fundamental Counting Principle (Multiplication Principle)**:
-    *   If there are 'm' ways to do one thing and 'n' ways to do another, then there are $m \times n$ ways to do both.
-    *   Can be extended to more than two events.
-*   **Key Concepts in Combinatorics**:
-    *   **Permutations**:
-        *   Arrangements of objects where the **order matters**.
-        *   Used when selecting items and arranging them in a specific sequence.
-    *   **Combinations**:
-        *   Selections of objects where the **order does not matter**.
-        *   Used when selecting a group of items without regard to their arrangement.
-    *   **Factorials**:
-        *   A mathematical operation crucial for calculating permutations and combinations.
-*   **Applications**:
-    *   Calculating probabilities (e.g., probability of winning a lottery).
-    *   Computer science (e.g., algorithm analysis, password combinations).
-    *   Statistics (e.g., sampling methods).
-    *   Cryptography.
-
----
-
-### **Note for MultipleFiles/29. Permutations**
-
-**Topic: Permutations**
-
-*   **Definition of Permutation**:
-    *   An arrangement of objects in a specific order. The order of selection or arrangement is crucial.
-*   **Types of Permutations**:
-    *   **Permutations of 'n' distinct objects taken 'n' at a time**:
-        *   The number of ways to arrange all 'n' distinct objects.
-        *   Formula: $P(n, n) = n!$
-        *   Example: Arranging 3 books on a shelf: $3! = 3 \times 2 \times 1 = 6$ ways.
-    *   **Permutations of 'n' distinct objects taken 'r' at a time**:
-        *   The number of ways to arrange 'r' objects chosen from 'n' distinct objects.
-        *   Formula:
-            $$
-            P(n, r) = \frac{n!}{(n-r)!}
-            $$
-        *   Example: Arranging 2 letters from A, B, C: $P(3, 2) = 3!/(3-2)! = 3!/1! = 6$ (AB, AC, BA, BC, CA, CB).
-    *   **Permutations with Repetition (of 'n' objects where some are identical)**:
-        *   If there are $n_1$ identical objects of type 1, $n_2$ identical objects of type 2, ..., $n_k$ identical objects of type k, and $n = n_1 + n_2 + \dots + n_k$.
-        *   Formula:
-            $$
-            P = \frac{n!}{n_1! n_2! \dots n_k!}
-            $$
-        *   Example: Arranging the letters in "MISSISSIPPI".
-    *   **Permutations with Repetition (allowing repetition)**:
-        *   If you have 'n' types of items and you choose 'r' of them with replacement, and order matters.
-        *   Formula: $n^r$
-        *   Example: A 3-digit lock with digits 0-9, repetition allowed: $10^3 = 1000$ combinations.
-*   **Key Characteristic**: Order matters!
-
----
 
 ### **Note for MultipleFiles/30. Factorials operation**
 
