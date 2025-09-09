@@ -214,7 +214,7 @@ Components: navbar, buttons, forms
 <details> <summary>### **Note for MultipleFiles/37. Probability**</summary>
    ---
 **Topic: Probability**
-
+<p></p>
 *   **Definition of Probability**:
     *   A measure of the likelihood of an event occurring.
     *   Expressed as a number between 0 and 1 (or 0% and 100%).
@@ -242,6 +242,12 @@ Components: navbar, buttons, forms
 </details>
 
 <details> <summary>38. 🎯 Expected vs. Actual Values</summary>
+Perfect! Here’s a **polished and more engaging version** of your note on **Expected vs. Actual Values**, making it slide/learning-material friendly 👇
+
+---
+
+# 🎯 **Expected vs. Actual Values**
+
 ---
 
 ## 🔹 **Expected Value (Expectation)**
@@ -289,13 +295,30 @@ where:
    * Machine Learning/Stats → Model prediction vs. real data
 
 ---
+
+✨ **Key Takeaway**:
+
+* **Expected Value** → Long-term theoretical prediction.
+* **Actual Value** → Single observed outcome.
+* **Gap** between them drives analysis, risk assessment, and better decision-making.
+
+---
 </details>
 
 
 
-<P>
+
+
+
 <details> <summary>39. 🔢 Frequency</summary>
 ---
+
+## 🔹 **Definition**
+
+Frequency = The **number of times** a particular event or value occurs in a dataset or during an experiment.
+
+---
+
 ## 🔹 **Types of Frequency**
 
 1. **📊 Absolute Frequency**
@@ -338,15 +361,28 @@ A structured way to show frequencies of outcomes.
 * **🥧 Pie Charts** → Represent **relative frequencies** of categorical data.
 
 ---
+
+✨ **Key Takeaway**:
+
+* **Absolute Frequency** → Raw counts.
+* **Relative Frequency** → Proportions.
+* **Cumulative Frequency** → Running totals.
+* Together, they help **summarize and interpret data patterns**.
+
+---
 </details> 
 
 
 <details> <summary>40. 🎲 Events in Probability  </summary>
+---
 
-🔹 Definition
+## 🔹 **Definition**
 
-Combinatorics is the branch of mathematics concerned with counting, arranging, and combining objects.
-👉 It answers the question: “How many ways can this be done?”
+An **event** = A specific outcome or a **set of outcomes** from a random experiment.
+
+* Formally: An event is a **subset of the sample space** ($\Omega$ or $S$).
+
+---
 
 ## 🔹 **Types of Events**
 
@@ -413,18 +449,33 @@ Combinatorics is the branch of mathematics concerned with counting, arranging, a
      $$
 
 6. **🔗 Dependent Events**
+
    * One event’s occurrence **affects** the probability of the other.
+
+---
+
+✨ **Quick Recap**
+
+* **Simple vs. Compound** → Number of outcomes.
+* **Certain vs. Impossible** → Extremes of probability (1 or 0).
+* **Complement, Union, Intersection** → Event operations.
+* **Mutually Exclusive vs. Independent** → Relationship differences.
+
 ---
 </details> 
 
 
 
 <details> <summary>40. # 🔢 Combinatorics  </summary>
+---
 
-   🔹 Definition
+## 🔹 **Definition**
 
-Combinatorics is the branch of mathematics concerned with counting, arranging, and combining objects.
-👉 It answers the question: “How many ways can this be done?”
+**Combinatorics** is the branch of mathematics concerned with **counting, arranging, and combining objects**.
+👉 It answers the question: **“How many ways can this be done?”**
+
+---
+
 ## 🔹 **Fundamental Counting Principle (Multiplication Rule)**
 
 * If there are **m ways** to do one thing and **n ways** to do another,
@@ -469,6 +520,15 @@ Combinatorics is the branch of mathematics concerned with counting, arranging, a
 * 💻 **Computer Science** → algorithm analysis, password strength.
 * 📊 **Statistics** → sampling and survey design.
 * 🔐 **Cryptography** → encoding/decoding secure systems.
+
+---
+
+✨ **Quick Recap**
+
+* **Permutation** → Order matters.
+* **Combination** → Order doesn’t matter.
+* **Factorial** → Foundation for both.
+* **Counting Principle** → Multiply possibilities across choices.
 
 ---
 </details> 
@@ -545,6 +605,9 @@ A **permutation** is an **arrangement of objects in a specific order**.
 
 ---
 </details> 
+
+
+
 
 <details> <summary>  </summary>
 
